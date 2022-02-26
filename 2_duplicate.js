@@ -16,7 +16,7 @@ function removeDuplicate(names) {
     return unique;
 }
 const uniqueNames = removeDuplicate(names);
-// console.log(uniqueNames);
+console.log(uniqueNames);
 
 
 
@@ -33,4 +33,4 @@ function removeDuplicateNum(a) {
     return uniqueNum;
 }
 const uniqueNumber = removeDuplicateNum(numbers);
-console.log(uniqueNumber);
+// console.log(uniqueNumber);
