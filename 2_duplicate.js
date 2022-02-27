@@ -23,9 +23,9 @@ console.log(uniqueNames);
 
 
 const numbers = [32, 23, 12, 24, 83, 13, 32, 23, 12, 24, 83];
-function removeDuplicateNum(a) {
+function removeDuplicateNum(number) {
     const uniqueNum = [];
-    for (const element of a) {
+    for (const element of number) {
         if (uniqueNum.indexOf(element) == -1) {
             uniqueNum.push(element);
         }
@@ -33,4 +33,4 @@ function removeDuplicateNum(a) {
     return uniqueNum;
 }
 const uniqueNumber = removeDuplicateNum(numbers);
-// console.log(uniqueNumber);
+console.log(uniqueNumber);
